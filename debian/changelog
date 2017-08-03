@@ -1,3 +1,9 @@
+mapserver (7.0.6-2~c2crfc118+2) jessie; urgency=low
+
+  * Set debian section to mapserver-7.0.rfc118
+
+ -- Frederic Junod <frederic.junod@camptocamp.com>  Thu, 03 Aug 2017 10:24:10 +0200
+
 mapserver (7.0.6-2~c2crfc118+1) jessie; urgency=low
 
   * Add patch for https://github.com/dmorissette/mapserver/tree/rfc118-filter
