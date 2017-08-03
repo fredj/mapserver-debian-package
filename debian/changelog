@@ -1,3 +1,9 @@
+mapserver (7.0.6-2~c2crfc118+1) jessie; urgency=low
+
+  * Add patch for https://github.com/dmorissette/mapserver/tree/rfc118-filter
+
+ -- Frederic Junod <frederic.junod@camptocamp.com>  Thu, 03 Aug 2017 09:47:33 +0200
+
 mapserver (7.0.6-2) unstable; urgency=medium
 
   * Fix SOURCE_DATE_EPOCH use.
