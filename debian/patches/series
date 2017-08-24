@@ -3,3 +3,4 @@ perl-mapscript-install.patch
 ruby-mapscript-install.patch
 java-hardening.patch
 RFC118.patch
+nested-groups.patch
