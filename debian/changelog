@@ -1,3 +1,9 @@
+mapserver (7.1.0-1~c2c+2) jessie; urgency=low
+
+  * New jessie build
+
+ -- Frederic Junod <frederic.junod@camptocamp.com>  Thu, 21 Sep 2017 16:25:51 +0200
+
 mapserver (7.1.0-1~c2c+1) jessie; urgency=low
 
   * New jessie build
