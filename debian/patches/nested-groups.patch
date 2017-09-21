@@ -1,6 +1,6 @@
 --- a/mapwms.c
 +++ b/mapwms.c
-@@ -2814,6 +2814,7 @@
+@@ -2821,6 +2821,7 @@
        }
      } else {
        msIO_printf("%s    <Layer>\n", indent);
