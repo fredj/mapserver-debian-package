@@ -3,7 +3,7 @@ Maintainer: Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>
 Uploaders: Francesco Paolo Lovergine <frankie@debian.org>,
            Alan Boudreault <aboudreault@mapgears.com>,
            Bas Couwenberg <sebastic@debian.org>
-Section: mapserver-7.0/devel
+Section: mapserver-7.2/devel
 Priority: optional
 Build-Depends: debhelper (>= 9),
 #               dh-php,
@@ -53,7 +53,7 @@ XS-Ruby-Versions: all
 
 Package: libmapserver2
 Architecture: any
-Section: mapserver-7.0/libs
+Section: mapserver-7.2/libs
 Depends: ${shlibs:Depends},
          ${misc:Depends}
 Suggests: cgi-mapserver,
@@ -74,7 +74,7 @@ Description: Shared library for MapServer
 
 Package: libmapserver-dbg
 Architecture: any
-Section: mapserver-7.0/debug
+Section: mapserver-7.2/debug
 Priority: extra
 Depends: libmapserver2 (= ${binary:Version}),
          ${misc:Depends}
@@ -90,7 +90,7 @@ Description: Debugging symbols for libmapserver
 
 Package: libmapserver-dev
 Architecture: any
-Section: mapserver-7.0/libdevel
+Section: mapserver-7.2/libdevel
 Depends: libmapserver2 (= ${binary:Version}),
          ${misc:Depends}
 Suggests: cgi-mapserver,
@@ -114,7 +114,7 @@ Description: Shared library development files for MapServer
 
 Package: cgi-mapserver
 Architecture: any
-Section: mapserver-7.0/web
+Section: mapserver-7.2/web
 Depends: ${shlibs:Depends},
          ${misc:Depends}
 Suggests: mapserver-bin,
@@ -135,7 +135,7 @@ Description: CGI executable for MapServer
 
 Package: mapserver-bin
 Architecture: any
-Section: mapserver-7.0/misc
+Section: mapserver-7.2/misc
 Depends: ${shlibs:Depends},
          ${misc:Depends}
 Suggests: cgi-mapserver,
@@ -155,7 +155,7 @@ Description: MapServer utilities
 
 Package: mapserver-doc
 Architecture: all
-Section: mapserver-7.0/doc
+Section: mapserver-7.2/doc
 Depends: ${misc:Depends}
 Suggests: cgi-mapserver,
           libmapscript-perl,
@@ -172,7 +172,7 @@ Description: documentation for MapServer
 
 #Package: php-mapscript
 #Architecture: any
-#Section: mapserver-7.0/php
+#Section: mapserver-7.2/php
 #Depends: ${php:Depends},
 #         ${shlibs:Depends},
 #         ${misc:Depends}
@@ -186,7 +186,7 @@ Description: documentation for MapServer
 
 Package: libmapscript-perl
 Architecture: any
-Section: mapserver-7.0/perl
+Section: mapserver-7.2/perl
 Depends: ${perl:Depends},
          ${shlibs:Depends},
          ${misc:Depends}
@@ -203,7 +203,7 @@ Description: Perl MapServer module
 
 Package: python-mapscript
 Architecture: any
-Section: mapserver-7.0/python
+Section: mapserver-7.2/python
 Depends: ${python:Depends},
          ${shlibs:Depends},
          ${misc:Depends}
@@ -218,7 +218,7 @@ Description: Python library for MapServer
 
 Package: ruby-mapscript
 Architecture: any
-Section: mapserver-7.0/ruby
+Section: mapserver-7.2/ruby
 Depends: ruby | ruby-interpreter,
          ${shlibs:Depends},
          ${misc:Depends}
@@ -244,7 +244,7 @@ Description: MapServer library for Ruby
 
 Package: libmapscript-java
 Architecture: any
-Section: mapserver-7.0/java
+Section: mapserver-7.2/java
 Depends: ${shlibs:Depends},
          ${misc:Depends}
 Suggests: mapserver-bin,
