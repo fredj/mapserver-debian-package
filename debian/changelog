@@ -1,3 +1,9 @@
+mapserver (7.1.0-1~c2c+1) jessie; urgency=low
+
+  * New jessie build
+
+ -- Frederic Junod <frederic.junod@camptocamp.com>  Thu, 21 Sep 2017 12:48:27 +0200
+
 mapserver (7.0.6-2~c2crfc118+4) jessie; urgency=low
 
   * Add patch for https://github.com/mapserver/mapserver/pull/5371
